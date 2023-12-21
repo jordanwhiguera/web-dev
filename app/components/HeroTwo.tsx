@@ -6,7 +6,7 @@ const HeroTwo = () => {
   return (
     //HERO SECTION PART 1
     //Container div
-    <Container className="">
+    <Container className="bg-side ">
       <div className="flex flex-col lg:flex-row min-h-screen ">
         {/* Text Content */}
         <div className="flex-1 p-12 flex flex-col justify-center">

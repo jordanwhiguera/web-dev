@@ -12,13 +12,9 @@ body,
   background-size: cover; /* This ensures the image covers the entire element */
   background-position: center; /* This centers the image in the element */
 }
-.bg-next {
-  background-image: url("/nextbg.png");
-  background-size: cover; /* This ensures the image covers the entire element */
-  background-position: center; /* This centers the image in the element */
-}
-.bg-merge {
-  background-image: url("/bg-merge.png");
+
+.bg-side {
+  background-image: url("/new-bg-side.png");
   background-size: cover; /* This ensures the image covers the entire element */
   background-position: center; /* This centers the image in the element */
 }

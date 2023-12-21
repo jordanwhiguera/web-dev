@@ -7,7 +7,7 @@ const Hero = () => {
     //HERO SECTION PART 1
     //Container div
     <Container
-      className="bg-hero md:bg-merge" // `bg-hero` will apply to screens smaller than 768px, and `bg-merge` will apply to screens 768px and larger
+      className="bg-hero" // `bg-hero` will apply to screens smaller than 768px, and `bg-merge` will apply to screens 768px and larger
     >
       <div className="flex flex-col lg:flex-row min-h-screen ">
         {/* Text Content */}
