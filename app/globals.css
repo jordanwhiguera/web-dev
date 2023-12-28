@@ -8,13 +8,13 @@ body,
   height: 100%;
 }
 .bg-hero {
-  background-image: url("/herobg.png");
+  background-image: url("/images/herobg.png");
   background-size: cover; /* This ensures the image covers the entire element */
   background-position: center; /* This centers the image in the element */
 }
 
 .bg-side {
-  background-image: url("/new-bg-side.png");
+  background-image: url("/images/new-bg-side.png");
   background-size: cover; /* This ensures the image covers the entire element */
   background-position: center; /* This centers the image in the element */
 }
