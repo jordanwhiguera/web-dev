@@ -10,8 +10,9 @@ export default function Home() {
     <>
       <Navbar />
       <Hero />
+      {/* <HeroTwo /> */}
       <Card />
-      <HeroTwo />
+
       <Footer />
     </>
   );

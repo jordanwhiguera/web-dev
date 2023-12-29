@@ -15,10 +15,17 @@ body,
 }
 
 .bg-side {
-  background-image: url("/images/new-bg-side.png");
-  background-size: cover; /* This ensures the image covers the entire element */
-  background-position: center; /* This centers the image in the element */
+  background-color: white; /* Default background color is white */
 }
+
+@media (min-width: 1100px) {
+  .bg-side {
+    background-image: url("/images/new-bg-side.png");
+    background-size: cover;
+    background-position: center;
+  }
+}
+
 .bg-footer {
   background-image: url("/images/bg-footer.png");
   background-size: cover; /* This ensures the image covers the entire element */
