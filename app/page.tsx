@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Card from "./components/Card";
 import PricingSection from "./components/Feature";
+import ContactSection from "./components/ContactSection";
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
         padRight
       />
       <PricingSection />
+      <ContactSection />
       <Footer />
     </>
   );
