@@ -18,16 +18,16 @@ export default function Home() {
       <HeroTwo
         title="Our Portfolio"
         subtitle=" Stowbase is an online marketplace that connects people looking to store their belongings with people with unused space."
-        image="/images/stowbasepreview.png"
+        image="/images/new-multi-web.png"
+        reverse
+        reOrder
         button
-        padRight
       />
       <HeroTwo
         title="Who Am I?"
         subtitle="My name is Ryan, I am a stay at home dad and web developer. I started this business to help provide for the family while still being able to be home and raise the kids."
         image="/images/web-dev.png"
-        reverse
-        reOrder
+        padRight
         button
       />
 

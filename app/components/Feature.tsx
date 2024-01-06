@@ -10,8 +10,8 @@ const Feature: React.FC<{ title: string; description: string }> = ({
     <div className="flex items-center">
       <span className="text-green-500 mr-2">✔</span>
       <div>
-        <h4 className="font-bold">{title}</h4>
-        <p className="text-sm text-gray-600">{description}</p>
+        <h4 className="font-bold text-black">{title}</h4>
+        <p className="text-sm text-black">{description}</p>
       </div>
     </div>
   );
@@ -28,10 +28,10 @@ const PricingSection: React.FC = () => {
         <div className="md:w-1/2">
           {" "}
           {/* Take up half the width on medium screens */}
-          <h2 className="text-3xl font-bold text-blue-800">
+          <h2 className="text-3xl font-bold text-black">
             $0 Down, $150 Per Month,
           </h2>
-          <p className="text-xl text-blue-700">12 Month Minimum Contract</p>
+          <p className="text-xl text-black">12 Month Minimum Contract</p>
           <p className="mt-4 text-gray-700">
             $0 down for a standard 5 page small business website. If you need
             more than that then we have to do custom pricing based on the scope
