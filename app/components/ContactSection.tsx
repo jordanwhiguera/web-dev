@@ -1,9 +1,13 @@
 "use client";
 import React from "react";
 import Container from "./Container";
+import Button from "./Button";
 
 const ContactSection: React.FC = () => {
   const formEndpoint = "https://formspree.io/f/xrgngrwd";
+  const handleSubmit = (e: React.MouseEvent<HTMLButtonElement>) => {
+    // You might want to handle the submit function here if needed
+  };
   return (
     <Container>
       <div className="flex flex-col md:flex-row justify-between items-center space-y-8 md:space-y-0 my-4">
@@ -47,12 +51,10 @@ const ContactSection: React.FC = () => {
                 rows={10}
                 required
               ></textarea>
-              <button
-                type="submit"
-                className="bg-[#1e251f]  p-3 rounded hover:bg-[#2e352f] text-white"
-              >
+              <button className="bg-[#feac7c]  p-3 rounded hover:bg-[#2e352f] text-black font-bold">
                 SUBMIT INFORMATION
               </button>
+              <Button label="SUBMIT INFORMATION" onClick={handleSubmit} />
             </form>
           </div>
         </div>

@@ -45,16 +45,16 @@ const Card: React.FC = () => {
     <Container className="bg-side">
       <div className="py-6">
         <div className="flex justify-between items-center mb-4">
-          <h2 className="text-2xl font-bold text-black">What We Do</h2>
+          <h2 className="text-xl font-bold text-black">What We Do</h2>
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
           {cardItems.map((item) => (
             <div
               key={item.id}
-              className="bg-[#feac7c] rounded-lg overflow-hidden"
+              className="bg-white shadow-2xl rounded-lg overflow-hidden"
             >
               <img
-                className="w-full h-48 object-cover"
+                className="w-full h-80 object-cover"
                 src={item.imageUrl}
                 alt={item.title}
               />
