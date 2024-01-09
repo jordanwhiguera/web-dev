@@ -26,7 +26,7 @@ export default function Home() {
       <HeroTwo
         title="Who Am I?"
         subtitle="My name is Ryan, I am a stay at home dad and web developer. I started this business to help provide for the family while still being able to be home and raise the kids."
-        image="/images/web-dev.png"
+        image="/images/me.png"
         padRight
         button
       />

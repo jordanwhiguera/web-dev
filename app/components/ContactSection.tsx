@@ -51,16 +51,14 @@ const ContactSection: React.FC = () => {
                 rows={10}
                 required
               ></textarea>
-              <button className="bg-[#feac7c]  p-3 rounded hover:bg-[#2e352f] text-black font-bold">
-                SUBMIT INFORMATION
-              </button>
-              <Button label="SUBMIT INFORMATION" onClick={handleSubmit} />
+
+              <Button label="Submit Information" onClick={handleSubmit} />
             </form>
           </div>
         </div>
         <div className="flex-1 space-y-4">
           <div className="md:pl-24">
-            <h2 className="text-4xl font-bold mb-4 text-black">
+            <h2 className="text-5xl font-bold mb-4 text-black">
               LET'S GET IN TOUCH
             </h2>
             <p className="mb-6 text-black">

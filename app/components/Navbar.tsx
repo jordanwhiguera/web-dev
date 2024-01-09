@@ -3,7 +3,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="drawer fixed">
+    <div className="drawer fixed z-50">
       <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
       <div className="drawer-content flex flex-col">
         {/* Navbar */}
@@ -29,17 +29,36 @@ const Navbar = () => {
               </svg>
             </label>
           </div>
-          <div className="flex-1 px-2 mx-2 font-bold text-white">
-            Navbar Title
+          <div className="flex-1 px-2 mx-2 font-bold text-white hover:text-[#feac7c] hover:cursor-pointer">
+            Jordy Web Development & Design
           </div>
           <div className="flex-none hidden lg:block">
             <ul className="menu menu-horizontal">
               {/* Navbar menu content here */}
               <li>
-                <a className="text-white font-bold">Navbar Item 1</a>
+                <a className="text-white font-bold hover:text-[#feac7c]">
+                  Home
+                </a>
               </li>
               <li>
-                <a className="text-white font-bold">Navbar Item 2</a>
+                <a className="text-white font-bold hover:text-[#feac7c]">
+                  Services
+                </a>
+              </li>
+              <li>
+                <a className="text-white font-bold hover:text-[#feac7c]">
+                  Portfolio
+                </a>
+              </li>
+              <li>
+                <a className="text-white font-bold hover:text-[#feac7c]">
+                  About
+                </a>
+              </li>
+              <li>
+                <a className="text-white font-bold hover:text-[#feac7c]">
+                  Pricing
+                </a>
               </li>
             </ul>
           </div>
@@ -55,10 +74,23 @@ const Navbar = () => {
         <ul className="menu p-4 w-80 min-h-full bg-[#1e251f]">
           {/* Sidebar content here */}
           <li>
-            <a className="text-white font-bold">Sidebar Item 1</a>
+            <a className="text-white font-bold hover:text-[#feac7c]">Home</a>
           </li>
           <li>
-            <a className="text-white font-bold">Sidebar Item 2</a>
+            <a className="text-white font-bold hover:text-[#feac7c]">
+              Services
+            </a>
+          </li>
+          <li>
+            <a className="text-white font-bold hover:text-[#feac7c]">
+              Portfolio
+            </a>
+          </li>
+          <li>
+            <a className="text-white font-bold hover:text-[#feac7c]">About</a>
+          </li>
+          <li>
+            <a className="text-white font-bold hover:text-[#feac7c]">Pricing</a>
           </li>
         </ul>
       </div>
