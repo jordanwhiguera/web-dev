@@ -2,6 +2,9 @@
 import React from "react";
 import Container from "./Container";
 import Button from "./Button";
+import { FaPhoneAlt } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
+import { FaMapMarkerAlt } from "react-icons/fa";
 
 const ContactSection: React.FC = () => {
   const formEndpoint = "https://formspree.io/f/xrgngrwd";
@@ -71,18 +74,22 @@ const ContactSection: React.FC = () => {
             {/* Contact details and social icons */}
             <div className="space-y-4">
               <div className="flex items-center text-black">
-                <span className="material-icons mr-2 text-black">
-                  location_on
+                <span className=" mr-2 text-black p-2 bg-[#445044] rounded-full">
+                  <FaMapMarkerAlt className="text-white" />
                 </span>
-                Stuart, FL 34994
+                Port Saint Lucie, FL
               </div>
               <div className="flex items-center text-black">
-                <span className="material-icons mr-2 text-black">phone</span>
-                (772) 324-9551
+                <span className=" mr-2 text-black p-2 bg-[#445044] rounded-full">
+                  <FaPhoneAlt className="text-white" />
+                </span>
+                (772) 607-0620
               </div>
               <div className="flex items-center text-black">
-                <span className="material-icons mr-2 text-black">email</span>
-                info@pinnaclewebmarketing.com
+                <span className=" mr-2 text-black p-2 bg-[#445044] rounded-full">
+                  <MdEmail className="text-white" />
+                </span>
+                jordanwhiguera@gmail.com
               </div>
             </div>
           </div>

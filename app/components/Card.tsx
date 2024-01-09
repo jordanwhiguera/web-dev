@@ -19,7 +19,7 @@ const cardItems: CardItem[] = [
     description:
       "A delightful mix of stilton cheese and pancetta in a creamy sauce.",
     price: "$24.00",
-    imageUrl: "/images/web-dev.png", // Replace with your image path
+    imageUrl: "/images/pc-people.jpg", // Replace with your image path
   },
   {
     id: 2,
@@ -27,7 +27,7 @@ const cardItems: CardItem[] = [
     description:
       "A delightful mix of stilton cheese and pancetta in a creamy sauce.",
     price: "$24.00",
-    imageUrl: "/images/web-dev.png", // Replace with your image path
+    imageUrl: "/images/laptop.jpg", // Replace with your image path
   },
   {
     id: 3,
@@ -35,7 +35,7 @@ const cardItems: CardItem[] = [
     description:
       "A delightful mix of stilton cheese and pancetta in a creamy sauce.",
     price: "$24.00",
-    imageUrl: "/images/web-dev.png", // Replace with your image path
+    imageUrl: "/images/man-phone.jpg", // Replace with your image path
   },
   // ... other menu items
 ];
@@ -54,7 +54,7 @@ const Card: React.FC = () => {
               className="bg-white shadow-2xl rounded-lg overflow-hidden"
             >
               <img
-                className="w-full h-80 object-cover"
+                className="w-full h-96 object-cover"
                 src={item.imageUrl}
                 alt={item.title}
               />
