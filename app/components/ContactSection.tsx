@@ -13,10 +13,10 @@ const ContactSection: React.FC = () => {
   };
   return (
     <Container>
-      <div className="flex flex-col md:flex-row justify-between items-center space-y-8 md:space-y-0 my-4">
+      <div className="flex flex-col md:flex-row justify-between items-center space-y-8 md:space-y-0 my-8">
         <div className="flex-1 bg-[#445044]  rounded-lg w-full min-h-full">
           {/* Form content */}
-          <div className="p-6">
+          <div className="p-6 ">
             <h3 className="text-lg mb-4 text-white font-bold">
               Fill out this quick form to request a free consultation!
             </h3>
