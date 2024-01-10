@@ -5,7 +5,7 @@ import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Card from "./components/Card";
 import PricingSection from "./components/Feature";
-import ContactSection from "./components/ContactSection";
+// import ContactSection from "./components/ContactSection";
 import PricingTable from "./components/PricingTable";
 import Feature from "./components/Feature";
 
