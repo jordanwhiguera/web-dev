@@ -33,7 +33,7 @@ const PricingCard: React.FC<PricingCardProps> = ({ plan }) => {
           {plan.features.map((feature, index) => (
             <div
               key={index}
-              className="flex items-center text-gray-600 text-sm mb-2"
+              className="flex items-center text-black text-sm mb-2"
             >
               <span className=" mr-2 text-black p-1 bg-[#445044] rounded-full">
                 <FaCheck className="text-white " size={10} />
