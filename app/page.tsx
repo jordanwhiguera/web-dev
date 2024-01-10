@@ -6,6 +6,8 @@ import Navbar from "./components/Navbar";
 import Card from "./components/Card";
 import PricingSection from "./components/Feature";
 import ContactSection from "./components/ContactSection";
+import PricingTable from "./components/PricingTable";
+import Feature from "./components/Feature";
 
 export default function Home() {
   return (
@@ -14,7 +16,7 @@ export default function Home() {
       <Hero />
 
       <Card />
-      <PricingSection />
+
       {/* <HeroTwo
         title="My Portfolio"
         subtitle=" Stowbase is an online marketplace that connects people looking to store their belongings with people with unused space."
@@ -33,6 +35,8 @@ export default function Home() {
       /> */}
 
       {/* <ContactSection /> */}
+      <Feature />
+      <PricingTable />
       <Footer />
     </>
   );
