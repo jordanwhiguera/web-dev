@@ -7,7 +7,7 @@ const Feature: React.FC<{ title: string; description: string }> = ({
   description,
 }) => {
   return (
-    <div className="flex items-center">
+    <div className="flex ">
       <span className="text-green-500 mr-2">✔</span>
       <div>
         <h4 className="font-bold text-black">{title}</h4>
@@ -24,6 +24,15 @@ const PricingSection: React.FC = () => {
       {/* Assuming bg-white is the desired background */}
       <div className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0 md:space-x-4">
         {" "}
+        <div className="md:w-1/2  flex justify-center">
+          {" "}
+          {/* Take up half the width on medium screens */}
+          <img
+            src="/images/lady-idea.png" // Replace with your actual image path
+            alt="Savings illustration"
+            className="w-2/3 h-2/3" // Added rounded-lg and shadow-lg for styling
+          />
+        </div>
         {/* Adjust space and layout for md screens */}
         <div className="md:w-1/2">
           {" "}
@@ -64,15 +73,6 @@ const PricingSection: React.FC = () => {
               description="We install Analytics for free to monitor traffic and where it comes from."
             />
           </div>
-        </div>
-        <div className="md:w-1/2 ">
-          {" "}
-          {/* Take up half the width on medium screens */}
-          <img
-            src="/images/lady-pc.png" // Replace with your actual image path
-            alt="Savings illustration"
-            className="w-full h-auto" // Added rounded-lg and shadow-lg for styling
-          />
         </div>
       </div>
     </Container>

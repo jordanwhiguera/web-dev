@@ -43,12 +43,7 @@ const Navbar = () => {
               </li>
               <li>
                 <a className="text-white font-bold hover:text-[#feac7c]">
-                  Services
-                </a>
-              </li>
-              <li>
-                <a className="text-white font-bold hover:text-[#feac7c]">
-                  Portfolio
+                  Pricing
                 </a>
               </li>
               <li>
@@ -58,7 +53,12 @@ const Navbar = () => {
               </li>
               <li>
                 <a className="text-white font-bold hover:text-[#feac7c]">
-                  Pricing
+                  Portfolio
+                </a>
+              </li>
+              <li>
+                <a className="text-white font-bold hover:text-[#feac7c]">
+                  Contact
                 </a>
               </li>
             </ul>

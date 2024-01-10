@@ -12,6 +12,20 @@ body,
   background-image: url("/images/herobg.png");
   background-size: cover; /* This ensures the image covers the entire element */
   background-position: center; /* This centers the image in the element */
+  background-attachment: fixed;
+}
+/* Media query for screen sizes of 1023px or less */
+@media (max-width: 430px) {
+  .bg-hero {
+    background-position: center; /* Override background-attachment */
+  }
+}
+
+.bg-new-side {
+  background-image: url("/images/new-bg-side-3.png");
+  background-size: cover; /* This ensures the image covers the entire element */
+  background-position: start; /* This centers the image in the element */
+  background-attachment: fixed;
 }
 
 .bg-side {
