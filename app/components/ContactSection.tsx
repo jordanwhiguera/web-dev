@@ -7,7 +7,7 @@ import { MdEmail } from "react-icons/md";
 import { FaMapMarkerAlt } from "react-icons/fa";
 
 const ContactSection: React.FC = () => {
-  const formEndpoint = "https://formspree.io/f/xrgngrwd";
+  const formEndpoint = process.env.REACT_APP_FORMSPREE_ENDPOINT;
   const handleSubmit = (e: React.MouseEvent<HTMLButtonElement>) => {
     // You might want to handle the submit function here if needed
   };
