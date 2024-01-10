@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import Container from "./Container";
 
 const Footer = () => {
   return (
@@ -20,7 +21,8 @@ const Footer = () => {
           Pricing
         </a>
       </nav>
-      <nav>
+      {/* Social Media Links Below */}
+      {/* <nav>
         <div className="grid grid-flow-col gap-4">
           <a>
             <svg
@@ -56,7 +58,7 @@ const Footer = () => {
             </svg>
           </a>
         </div>
-      </nav>
+      </nav> */}
       <aside>
         <p className="text-white">
           Copyright © 2024 - All right reserved by Jordy Web Development &

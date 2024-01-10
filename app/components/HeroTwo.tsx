@@ -33,7 +33,7 @@ const HeroTwo: React.FC<HeroProps> = ({
   return (
     <div
       className={`mx-auto xl:px-20 md:px-10 sm:px-2 px-4 ${
-        blackBackground ? "bg-black" : "bg-white"
+        blackBackground ? "bg-[#f3d4b7]" : "bg-white"
       } `}
     >
       <div
@@ -48,7 +48,7 @@ const HeroTwo: React.FC<HeroProps> = ({
               <img
                 src={image}
                 alt="Hero Image"
-                className="w-full h-full rounded-lg object-cover"
+                className="w-full h-full  object-cover"
               />
             </div>
           </div>
@@ -90,12 +90,13 @@ const HeroTwo: React.FC<HeroProps> = ({
         {/* Conditionally render image second if reOrder is false or not provided */}
 
         {!reOrder && image && (
-          <div className="flex-1 py-10 flex items-center">
+          //Z-20 is to make sure the image is on top of the orange
+          <div className="flex-1 py-10 flex items-center z-20 ">
             <div className=" w-full">
               <img
                 src={image}
                 alt="Hero Image"
-                className="w-full h-full rounded-lg object-cover"
+                className="w-full h-full  object-cover"
               />
             </div>
           </div>

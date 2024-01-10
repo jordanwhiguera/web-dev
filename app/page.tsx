@@ -15,8 +15,8 @@ export default function Home() {
 
       <Card />
       <PricingSection />
-      <HeroTwo
-        title="Our Portfolio"
+      {/* <HeroTwo
+        title="My Portfolio"
         subtitle=" Stowbase is an online marketplace that connects people looking to store their belongings with people with unused space."
         image="/images/new-multi-web.png"
         reverse
@@ -29,9 +29,10 @@ export default function Home() {
         image="/images/me.png"
         padRight
         button
-      />
+        blackBackground
+      /> */}
 
-      <ContactSection />
+      {/* <ContactSection /> */}
       <Footer />
     </>
   );

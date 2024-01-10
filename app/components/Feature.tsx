@@ -65,7 +65,7 @@ const PricingSection: React.FC = () => {
             />
           </div>
         </div>
-        <div className="md:w-1/2">
+        <div className="md:w-1/2 ">
           {" "}
           {/* Take up half the width on medium screens */}
           <img
