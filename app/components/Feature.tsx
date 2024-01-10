@@ -24,17 +24,19 @@ const PricingSection: React.FC = () => {
       {/* Assuming bg-white is the desired background */}
       <div className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0 md:space-x-4">
         {" "}
-        <div className="md:w-1/2  flex justify-center">
+        {/* Image Content */}
+        <div className="md:w-1/3 flex justify-center md:justify-start ">
           {" "}
           {/* Take up half the width on medium screens */}
           <img
-            src="/images/lady-idea.png" // Replace with your actual image path
+            src="/images/lady-bulb.png" // Replace with your actual image path
             alt="Savings illustration"
-            className="w-2/3 h-2/3" // Added rounded-lg and shadow-lg for styling
+            className="w-1/2 md:w-2/3" // Added rounded-lg and shadow-lg for styling
           />
         </div>
+        {/* Text Content */}
         {/* Adjust space and layout for md screens */}
-        <div className="md:w-1/2">
+        <div className="md:w-2/3">
           {" "}
           {/* Take up half the width on medium screens */}
           <h2 className="text-3xl font-bold text-black">

@@ -30,7 +30,7 @@ const Navbar = () => {
               </svg>
             </label>
           </div>
-          <div className="flex-1 px-2 mx-2 font-bold text-white hover:text-[#feac7c] hover:cursor-pointer">
+          <div className="flex-1 px-2 mx-2 font-bold text-white hover:text-[#feac7c] hover:cursor-pointer ">
             Jordy Web Development & Design
           </div>
           <div className="flex-none hidden lg:block">
