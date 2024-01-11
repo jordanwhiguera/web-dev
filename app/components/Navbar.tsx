@@ -55,21 +55,21 @@ const Navbar: React.FC = () => {
           Close
         </button>
         {/* Navigation Links */}
-        <nav className="flex flex-col mt-8 space-y-4">
+        <nav className="flex flex-col mt-8 space-y-4 ">
           <a
-            className="text-white hover:text-[#feac7c] p-4 cursor-pointer"
+            className="text-white hover:text-[#feac7c] p-4 cursor-pointer rounded-lg hover:bg-[#171a17] "
             onClick={() => handleNavigation("/")}
           >
             Home
           </a>
           <a
-            className="text-white hover:text-[#feac7c] p-4 cursor-pointer"
+            className="text-white hover:text-[#feac7c] p-4 cursor-pointer rounded-lg hover:bg-[#171a17]"
             onClick={() => handleNavigation("/about")}
           >
             About
           </a>
           <a
-            className="text-white hover:text-[#feac7c] p-4 cursor-pointer"
+            className="text-white hover:text-[#feac7c] p-4 cursor-pointer rounded-lg hover:bg-[#171a17]"
             onClick={() => handleNavigation("/contact")}
           >
             Contact
