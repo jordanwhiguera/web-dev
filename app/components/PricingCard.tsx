@@ -45,7 +45,7 @@ const PricingCard: React.FC<PricingCardProps> = ({ plan }) => {
         </div>
         <Button
           smallWidth
-          label="Find storage"
+          label="Contact me"
           onClick={() => router.push("/")}
         />
       </div>
