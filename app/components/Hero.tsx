@@ -35,7 +35,7 @@ const Hero = () => {
         <div className="flex-1 py-10 flex items-center">
           <div className=" w-full">
             <img
-              src="/images/new-lady-pc.png"
+              src="/images/new-lady-pc.webp"
               alt="Hero Image"
               className="w-full h-full rounded-lg object-cover"
             />
