@@ -10,16 +10,20 @@ body,
 }
 .bg-hero {
   background-image: url("/images/herobg.webp");
-  background-size: cover; /* This ensures the image covers the entire element */
-  background-position: center; /* This centers the image in the element */
-  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
 }
 
-.bg-new-side {
-  background-image: url("/images/new-bg-side-3.webp");
-  background-size: cover; /* This ensures the image covers the entire element */
-  background-position: center; /* This centers the image in the element */
-  background-attachment: fixed;
+@media (min-width: 768px) {
+  .bg-hero {
+    background-attachment: fixed;
+  }
+  .bg-new-side {
+    background-image: url("/images/new-bg-side-3.webp");
+    background-size: cover; /* This ensures the image covers the entire element */
+    background-position: center; /* This centers the image in the element */
+    background-attachment: fixed;
+  }
 }
 
 .bg-side {
