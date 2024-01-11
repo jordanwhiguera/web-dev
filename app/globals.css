@@ -11,7 +11,7 @@ body,
 .bg-hero {
   background-image: url("/images/herobg.webp");
   background-size: cover;
-  background-position: center left 17%; /* 10% from the right edge */
+  background-position: center; /* 10% from the right edge */
 }
 
 @media (min-width: 768px) {
