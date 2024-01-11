@@ -29,7 +29,7 @@ const PricingSection: React.FC = () => {
           {" "}
           {/* Take up half the width on medium screens */}
           <img
-            src="/images/lady-bulb.png" // Replace with your actual image path
+            src="/images/lady-bulb.webp" // Replace with your actual image path
             alt="Savings illustration"
             className="w-1/2 md:w-2/3" // Added rounded-lg and shadow-lg for styling
           />

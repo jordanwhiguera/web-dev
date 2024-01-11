@@ -19,7 +19,7 @@ const cardItems: CardItem[] = [
     description:
       "A delightful mix of stilton cheese and pancetta in a creamy sauce.",
     price: "$24.00",
-    imageUrl: "/images/pc-people.jpg", // Replace with your image path
+    imageUrl: "/images/pc-people.webp", // Replace with your image path
   },
   {
     id: 2,
@@ -27,7 +27,7 @@ const cardItems: CardItem[] = [
     description:
       "A delightful mix of stilton cheese and pancetta in a creamy sauce.",
     price: "$24.00",
-    imageUrl: "/images/laptop.jpg", // Replace with your image path
+    imageUrl: "/images/laptop.webp", // Replace with your image path
   },
   {
     id: 3,
@@ -35,7 +35,7 @@ const cardItems: CardItem[] = [
     description:
       "A delightful mix of stilton cheese and pancetta in a creamy sauce.",
     price: "$24.00",
-    imageUrl: "/images/man-phone.jpg", // Replace with your image path
+    imageUrl: "/images/man-phone.webp", // Replace with your image path
   },
   // ... other menu items
 ];

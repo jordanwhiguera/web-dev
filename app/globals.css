@@ -9,14 +9,14 @@ body,
   background-color: white;
 }
 .bg-hero {
-  background-image: url("/images/herobg.png");
+  background-image: url("/images/herobg.webp");
   background-size: cover; /* This ensures the image covers the entire element */
   background-position: center; /* This centers the image in the element */
   background-attachment: fixed;
 }
 
 .bg-new-side {
-  background-image: url("/images/new-bg-side-3.png");
+  background-image: url("/images/new-bg-side-3.webp");
   background-size: cover; /* This ensures the image covers the entire element */
   background-position: center; /* This centers the image in the element */
   background-attachment: fixed;
@@ -35,7 +35,7 @@ body,
 }
 
 .bg-footer {
-  background-image: url("/images/bg-footer.png");
+  background-image: url("/images/bg-footer.webp");
   background-size: cover; /* This ensures the image covers the entire element */
   background-position: center; /* This centers the image in the element */
 }
