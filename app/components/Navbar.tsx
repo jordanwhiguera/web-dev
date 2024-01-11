@@ -13,6 +13,13 @@ const Navbar: React.FC = () => {
     setIsDrawerOpen(false);
     router.push(path);
   };
+  const scrollToSection = (sectionId: string) => {
+    setIsDrawerOpen(false); // Close the drawer
+    document.getElementById(sectionId)?.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  };
 
   return (
     <>
@@ -64,9 +71,9 @@ const Navbar: React.FC = () => {
           </a>
           <a
             className="text-white hover:text-[#feac7c] p-4 cursor-pointer rounded-lg hover:bg-[#171a17]"
-            onClick={() => handleNavigation("/about")}
+            onClick={() => scrollToSection("pricing")}
           >
-            About
+            Pricing
           </a>
           <a
             className="text-white hover:text-[#feac7c] p-4 cursor-pointer rounded-lg hover:bg-[#171a17]"

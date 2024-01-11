@@ -50,7 +50,7 @@ const PricingTable: React.FC = () => {
 
   return (
     <Container>
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div id="pricing" className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
         {plans.map((plan, index) => (
           <PricingCard key={index} plan={plan} />
         ))}
