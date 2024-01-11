@@ -5,9 +5,9 @@ import Container from "./Container";
 
 const Footer = () => {
   return (
-    <Container className="py-8 bg-footer flex flex-col md:flex-row justify-between items-center text-white ">
+    <Container className="py-4 bg-footer flex flex-col md:flex-row justify-between items-center text-white ">
       <div className="mb-4 md:mb-0">
-        <span className="text-lg font-semibold">
+        <span className="text-xs font-semibold">
           Copyright © 2024 - Jordy Web Development & Design
         </span>
       </div>
