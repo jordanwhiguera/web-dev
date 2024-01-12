@@ -40,11 +40,10 @@ const ContactSection: React.FC = () => {
           <div className="md:pr-24">
             <h2 className="text-5xl font-bold mb-4 text-black">GET IN TOUCH</h2>
             <p className="mb-6 text-black">
-              If you have any question regarding your website or marketing
-              strategy, we encourage you to schedule an appointment or phone
-              consultation with us. We are pleased to offer all types of local
-              marketing services at affordable prices for the needs of your
-              business.
+              If you have any question regarding your website strategy, we
+              encourage you to schedule an appointment or phone consultation
+              with us. We are pleased to offer all types of local marketing
+              services at affordable prices for the needs of your business.
             </p>
             {/* Contact details and social icons */}
             <div className="space-y-4">
