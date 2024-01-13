@@ -64,31 +64,31 @@ const Navbar: React.FC = () => {
         {/* Navigation Links */}
         <nav className="flex flex-col mt-8 space-y-4 ">
           <a
-            className="text-white hover:text-[#feac7c] p-4 cursor-pointer rounded-lg hover:bg-[#171a17] "
+            className="text-white hover:text-[#feac7c] p-4 cursor-pointer rounded-lg hover:bg-[#3e4f3f] "
             onClick={() => scrollToSection("home")}
           >
             Home
           </a>
           <a
-            className="text-white hover:text-[#feac7c] p-4 cursor-pointer rounded-lg hover:bg-[#171a17]"
+            className="text-white hover:text-[#feac7c] p-4 cursor-pointer rounded-lg hover:bg-[#3e4f3f]"
             onClick={() => scrollToSection("pricing")}
           >
             Pricing
           </a>
           <a
-            className="text-white hover:text-[#feac7c] p-4 cursor-pointer rounded-lg hover:bg-[#171a17]"
+            className="text-white hover:text-[#feac7c] p-4 cursor-pointer rounded-lg hover:bg-[#3e4f3f]"
             onClick={() => handleNavigation("/contact")}
           >
             Portfolio
           </a>
           <a
-            className="text-white hover:text-[#feac7c] p-4 cursor-pointer rounded-lg hover:bg-[#171a17]"
+            className="text-white hover:text-[#feac7c] p-4 cursor-pointer rounded-lg hover:bg-[#3e4f3f]"
             onClick={() => handleNavigation("/contact")}
           >
             About
           </a>
           <a
-            className="text-white hover:text-[#feac7c] p-4 cursor-pointer rounded-lg hover:bg-[#171a17]"
+            className="text-white hover:text-[#feac7c] p-4 cursor-pointer rounded-lg hover:bg-[#3e4f3f]"
             onClick={() => handleNavigation("/contact")}
           >
             Contact
