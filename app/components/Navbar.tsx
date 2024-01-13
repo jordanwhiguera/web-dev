@@ -20,7 +20,6 @@ const Navbar: React.FC = () => {
       block: "start",
     });
   };
-
   return (
     <>
       <nav className="fixed w-full bg-[#1e251f] text-white z-50">
@@ -107,3 +106,15 @@ const Navbar: React.FC = () => {
 };
 
 export default Navbar;
+
+// const handleNavigation = (path: string) => {
+//   setIsDrawerOpen(false);
+//   if (path !== "/pricing") {
+//     router.push(path);
+//   } else {
+//     router.push("/");
+//     document.getElementById("pricing")?.scrollIntoView({
+//       behavior: "smooth",
+//       block: "start",
+//     });
+//   }
