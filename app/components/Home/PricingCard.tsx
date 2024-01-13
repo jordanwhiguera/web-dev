@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import Button from "./Button";
+import Button from "../Button";
 import { useRouter } from "next/navigation";
 import { IconType } from "react-icons";
 import { FaCheck } from "react-icons/fa";

@@ -1,5 +1,5 @@
 import React from "react";
-import ContactSection from "@/app/components/ContactSection";
+import ContactSection from "@/app/components/Contact/ContactSection";
 import AboutUsSection from "@/app/components/Overlay";
 import { Toaster } from "react-hot-toast";
 

@@ -2,7 +2,7 @@
 // PricingTable.tsx
 import React from "react";
 import PricingCard from "./PricingCard"; // Adjust the import path as necessary
-import Container from "./Container";
+import Container from "../Container";
 
 import { FaHome } from "react-icons/fa";
 

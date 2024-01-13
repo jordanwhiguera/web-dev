@@ -1,13 +1,13 @@
 "use client";
 import React from "react";
-import Container from "./Container";
-import Button from "./Button";
+import Container from "../Container";
+import Button from "../Button";
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { toast } from "react-hot-toast";
 const ContactSection: React.FC = () => {
-  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit: React.FormEventHandler<HTMLFormElement> = async (e) => {
     e.preventDefault();
     const form = e.currentTarget;
     const formData = new FormData(e.currentTarget);
@@ -85,7 +85,6 @@ const ContactSection: React.FC = () => {
               Fill out this quick form to request a free consultation!
             </h3>
             <form
-              // Remove action attribute
               method="POST"
               className="flex flex-col space-y-3"
               onSubmit={handleSubmit}

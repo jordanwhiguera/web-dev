@@ -1,5 +1,5 @@
 "use client";
-import Container from "./Container";
+import Container from "../Container";
 import React from "react";
 
 interface CardItem {
