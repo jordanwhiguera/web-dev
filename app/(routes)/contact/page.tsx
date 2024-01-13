@@ -1,12 +1,12 @@
 import React from "react";
-import Navbar from "@/app/components/Navbar";
-import Footer from "@/app/components/Footer";
 import ContactSection from "@/app/components/ContactSection";
 import AboutUsSection from "@/app/components/Overlay";
+import { Toaster } from "react-hot-toast";
 
 const ContactPage = () => {
   return (
     <>
+      <Toaster />
       <AboutUsSection />
       <ContactSection />
     </>

@@ -5,6 +5,7 @@ import Button from "./Button";
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { FaMapMarkerAlt } from "react-icons/fa";
+import { toast } from "react-hot-toast";
 const ContactSection: React.FC = () => {
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -21,13 +22,16 @@ const ContactSection: React.FC = () => {
 
       if (response.ok) {
         console.log("Form successfully submitted");
+        toast.success("Form successfully submitted.");
         // Handle successful submission (e.g., redirect or show success message)
       } else {
         console.error("Form submission error");
+        toast.error("Something went wrong.");
         // Handle submission error
       }
     } catch (error) {
       console.error("Network error:", error);
+      toast.error("Something went wrong.");
       // Handle network error
     }
   };
