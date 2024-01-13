@@ -43,3 +43,8 @@ body,
   background-size: cover; /* This ensures the image covers the entire element */
   background-position: center; /* This centers the image in the element */
 }
+/* Removes Rounded form fields on mobile */
+input,
+textarea {
+  border-radius: 0; /* Adjust as needed */
+}
