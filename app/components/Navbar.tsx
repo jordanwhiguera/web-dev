@@ -13,13 +13,20 @@ const Navbar: React.FC = () => {
     setIsDrawerOpen(false);
     router.push(path);
   };
-  const scrollToSection = (sectionId: string) => {
-    setIsDrawerOpen(false); // Close the drawer
-    document.getElementById(sectionId)?.scrollIntoView({
-      behavior: "smooth",
-      block: "start",
-    });
+
+  React.useEffect(() => {
+    if (window.location.hash) {
+      scrollToSection(window.location.hash.substring(1));
+    }
+  }, []);
+
+  const scrollToSection = (sectionId: any) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
   };
+
   return (
     <>
       <nav className="fixed w-full bg-[#1e251f] text-white z-50">
@@ -70,7 +77,14 @@ const Navbar: React.FC = () => {
           </a>
           <a
             className="text-white hover:text-[#feac7c] p-4 cursor-pointer rounded-lg hover:bg-[#3e4f3f] "
-            onClick={() => scrollToSection("pricing")}
+            onClick={() => {
+              setIsDrawerOpen(false);
+              if (window.location.pathname === "/") {
+                scrollToSection("pricing");
+              } else {
+                window.location.href = "/#pricing";
+              }
+            }}
           >
             Pricing
           </a>
