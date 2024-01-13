@@ -9,6 +9,7 @@ import { toast } from "react-hot-toast";
 const ContactSection: React.FC = () => {
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    const form = e.currentTarget;
     const formData = new FormData(e.currentTarget);
 
     try {
@@ -24,6 +25,7 @@ const ContactSection: React.FC = () => {
         console.log("Form successfully submitted");
         toast.success("Form successfully submitted.");
         // Handle successful submission (e.g., redirect or show success message)
+        form.reset(); // Reset the form fields
       } else {
         console.error("Form submission error");
         toast.error("Something went wrong.");
