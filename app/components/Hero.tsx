@@ -13,7 +13,7 @@ const Hero = () => {
     <Container
       className="bg-hero" // `bg-hero` will apply to screens smaller than 768px, and `bg-merge` will apply to screens 768px and larger
     >
-      <div id="home" className="flex flex-col lg:flex-row min-h-screen">
+      <div className="flex flex-col lg:flex-row min-h-screen">
         {/* Text Content */}
         <div className="flex-1 py-12 flex flex-col justify-center">
           <div className="lg:pr-12">
