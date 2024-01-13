@@ -22,12 +22,15 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       },
     });
 
-    if (!response.ok) {
-      return res.status(500).json({ error: `Error from Formspree: ${response.statusText}` });
+    if (response.ok) {
+      return res.status(200).json({ message: "Form submitted successfully" });
+    
+    } else {
+     return res.status(500).json({ error: `Error from Formspree: ${response.statusText}` });
     }
-
-    return res.status(200).json({ message: "Form submitted successfully" });
+    
   } catch (error) {
     return res.status(500).json({ error: "Server error" });
   }
 }
+
