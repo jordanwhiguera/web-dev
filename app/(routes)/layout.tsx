@@ -7,10 +7,10 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function NewLayout({ children }: { children: React.ReactNode }) {
   return (
-    <div className="main-content">
+    <>
       <Navbar />
       <main className={inter.className}>{children}</main>
       <Footer />
-    </div>
+    </>
   );
 }
