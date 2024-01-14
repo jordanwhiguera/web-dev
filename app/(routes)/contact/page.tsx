@@ -1,13 +1,17 @@
 import React from "react";
 import ContactSection from "@/app/components/Contact/ContactSection";
-import AboutUsSection from "@/app/components/Overlay";
+import Overlay from "@/app/components/Overlay";
 import { Toaster } from "react-hot-toast";
 
 const ContactPage = () => {
   return (
     <>
       <Toaster />
-      <AboutUsSection />
+      <Overlay
+        imageSrc="/images/man-phone.webp"
+        imageAlt="man looking at phone"
+        text="Contact"
+      />
       <ContactSection />
     </>
   );
