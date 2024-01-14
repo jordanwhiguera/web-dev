@@ -15,6 +15,8 @@ const AboutPage = () => {
         title="Who Am I"
         subtitle="My name is Ryan, I am a stay at home dad and web developer. I started this business to help provide for the family while still being able to be home and raise the kids. I spent a year and a half teaching myself the right way to make websites and learning to write the code myself. Now after being in business professionally for over 5 years I have built hundreds websites and have my method"
         image="/images/laptop.webp"
+        padRight
+        button
       />
     </>
   );

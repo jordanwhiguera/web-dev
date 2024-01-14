@@ -32,7 +32,8 @@ const HeroTwo: React.FC<HeroProps> = ({
   const router = useRouter();
   return (
     <div
-      className={`mx-auto xl:px-20 md:px-10 sm:px-2 px-4 ${
+      // Can remove lg:my-16 as needed
+      className={`mx-auto lg:my-16 xl:px-20 md:px-10 sm:px-2 px-4 ${
         blackBackground ? "bg-[#f3d4b7]" : "bg-white"
       } `}
     >
@@ -76,8 +77,8 @@ const HeroTwo: React.FC<HeroProps> = ({
             {button && (
               <Button
                 smallWidth
-                label="Find storage"
-                onClick={() => router.push("/")}
+                label="Contact me"
+                onClick={() => router.push("/contact")}
               />
             )}
 
@@ -90,8 +91,7 @@ const HeroTwo: React.FC<HeroProps> = ({
         {/* Conditionally render image second if reOrder is false or not provided */}
 
         {!reOrder && image && (
-          //Z-20 is to make sure the image is on top of the orange
-          <div className="flex-1 py-10 flex items-center z-20 ">
+          <div className="flex-1 pb-10 lg:py-10 flex items-center">
             <div className=" w-full">
               <img
                 src={image}
