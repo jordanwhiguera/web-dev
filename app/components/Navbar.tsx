@@ -13,14 +13,7 @@ const Navbar: React.FC = () => {
     setIsDrawerOpen(false);
     router.push(path);
   };
-
-  React.useEffect(() => {
-    if (window.location.hash) {
-      scrollToSection(window.location.hash.substring(1));
-    }
-  }, []);
-
-  const scrollToSection = (sectionId: any) => {
+  const scrollToSection = (sectionId: string) => {
     const section = document.getElementById(sectionId);
     if (section) {
       section.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -132,3 +125,8 @@ export default Navbar;
 //       block: "start",
 //     });
 //   }
+// React.useEffect(() => {
+//   if (window.location.hash) {
+//     scrollToSection(window.location.hash.substring(1));
+//   }
+// }, []);
