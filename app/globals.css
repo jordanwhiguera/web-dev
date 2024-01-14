@@ -37,3 +37,14 @@ input,
 textarea {
   border-radius: 0; /* Adjust as needed */
 }
+/* Wrapper for your content (excluding the footer) */
+.main-content {
+  min-height: 100vh; /* Viewport Height */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Footer styling */
+.footer {
+  margin-top: auto; /* Pushes the footer to the bottom */
+}
