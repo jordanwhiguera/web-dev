@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import { FaCheck } from "react-icons/fa";
 import Container from "../Container";
 
 const Feature: React.FC<{ title: string; description: string }> = ({
@@ -7,8 +8,11 @@ const Feature: React.FC<{ title: string; description: string }> = ({
   description,
 }) => {
   return (
-    <div className="flex ">
-      <span className="text-[#feac7c] mr-2">✔</span>
+    <div className="flex">
+      <div>
+        <FaCheck className="text-[#feac7c] mr-2" size={20} />
+      </div>
+
       <div>
         <h4 className="font-bold text-black">{title}</h4>
         <p className="text-sm text-black">{description}</p>
