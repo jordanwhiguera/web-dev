@@ -28,7 +28,7 @@ const Hero = () => {
             <Button
               smallWidth
               label="Contact me"
-              onClick={() => router.push("/")}
+              onClick={() => router.push("/contact")}
             />
           </div>
         </div>
