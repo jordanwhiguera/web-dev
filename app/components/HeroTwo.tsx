@@ -8,7 +8,6 @@ interface HeroProps {
   title: string;
   subtitle: string;
   image: string;
-  search?: boolean;
   reverse?: boolean;
   blackBackground?: boolean;
   textWhite?: boolean;
@@ -21,7 +20,6 @@ const HeroTwo: React.FC<HeroProps> = ({
   title,
   subtitle,
   image,
-  search,
   reverse,
   blackBackground,
   textWhite,
@@ -81,10 +79,6 @@ const HeroTwo: React.FC<HeroProps> = ({
                 onClick={() => router.push("/contact")}
               />
             )}
-
-            {/* ...other contents like search input, if necessary... */}
-
-            {/* SearchButton */}
           </div>
         </div>
 
