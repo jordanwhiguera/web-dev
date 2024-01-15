@@ -32,8 +32,8 @@ const HeroTwo: React.FC<HeroProps> = ({
   const router = useRouter();
   return (
     <div
-      // Can remove lg:my-16 as needed
-      className={`mx-auto lg:my-16 xl:px-20 md:px-10 sm:px-2 px-4 ${
+      // Can remove lg:py-16 as needed
+      className={` mx-auto lg:py-16 xl:px-20 md:px-10 sm:px-2 px-4 ${
         blackBackground ? "bg-[#f3d4b7]" : "bg-white"
       } `}
     >
@@ -59,7 +59,7 @@ const HeroTwo: React.FC<HeroProps> = ({
         <div className="flex-1 py-12   flex flex-col justify-center">
           <div className={`${padRight ? "lg:pr-24" : "lg:pl-24"}`}>
             <h1
-              className={`text-5xl font-bold mb-6 ${
+              className={`text-4xl font-bold mb-6 ${
                 textWhite ? "text-white" : "text-black"
               }`}
             >
