@@ -8,7 +8,7 @@ const ContactPage = () => {
     <>
       <Toaster />
       <Overlay
-        imageSrc="/images/man-phone.webp"
+        imageSrc="/images/forest.webp"
         imageAlt="man looking at phone"
         text="Contact"
       />
