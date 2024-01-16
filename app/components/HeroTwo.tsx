@@ -31,7 +31,7 @@ const HeroTwo: React.FC<HeroProps> = ({
   return (
     <div
       // Can remove lg:py-16 as needed
-      className={` mx-auto py-4 lg:py-20 xl:px-20 md:px-10 sm:px-2 px-4 ${
+      className={` mx-auto py-4 lg:py-16 xl:px-20 md:px-10 sm:px-2 px-4 ${
         blackBackground ? "bg-[#f3d4b7]" : "bg-white"
       } `}
     >
