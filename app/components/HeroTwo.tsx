@@ -31,7 +31,7 @@ const HeroTwo: React.FC<HeroProps> = ({
   return (
     <div
       // Can remove lg:py-16 as needed
-      className={` mx-auto lg:py-16 xl:px-20 md:px-10 sm:px-2 px-4 ${
+      className={` mx-auto py-4 lg:py-20 xl:px-20 md:px-10 sm:px-2 px-4 ${
         blackBackground ? "bg-[#f3d4b7]" : "bg-white"
       } `}
     >
@@ -54,7 +54,7 @@ const HeroTwo: React.FC<HeroProps> = ({
         )}
 
         {/* Text Content */}
-        <div className="flex-1 py-12   flex flex-col justify-center">
+        <div className="flex-1   flex flex-col justify-center">
           <div className={`${padRight ? "lg:pr-24" : "lg:pl-24"}`}>
             <h1
               className={`text-4xl font-bold mb-6 ${
@@ -85,7 +85,7 @@ const HeroTwo: React.FC<HeroProps> = ({
         {/* Conditionally render image second if reOrder is false or not provided */}
 
         {!reOrder && image && (
-          <div className="flex-1 pb-10 lg:py-10 flex items-center">
+          <div className="flex-1 mt-8 lg:py-10 flex items-center">
             <div className=" w-full">
               <img
                 src={image}
