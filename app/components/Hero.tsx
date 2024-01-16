@@ -33,7 +33,7 @@ const Hero = () => {
           </div>
         </div>
         {/* Image Content */}
-        <div className="flex-1 py-10 flex items-center">
+        <div className="flex-1 pb-10 lg:py-10 flex items-center">
           <div className=" w-full">
             <img
               src="/images/new-lady-pc.webp"
