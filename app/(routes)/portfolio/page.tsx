@@ -14,7 +14,7 @@ const PortfolioPage = () => {
       <HeroTwo
         title="My work"
         subtitle="Stowbase is an online marketplace that connects people looking to store their belongings with people with unused space. Think of it as the Airbnb for storage."
-        image="/images/laptop.webp"
+        image="/images/girl-laptop.webp"
         padRight
         button
       />
