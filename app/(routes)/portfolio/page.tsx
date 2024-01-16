@@ -7,7 +7,7 @@ const PortfolioPage = () => {
   return (
     <>
       <Overlay
-        imageSrc="/images/forest.webp"
+        imageSrc="/images/pc-people.webp"
         imageAlt="man looking at phone"
         text="Portfolio"
       />

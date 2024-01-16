@@ -83,12 +83,7 @@ const Navbar: React.FC = () => {
           >
             Portfolio
           </a>
-          <a
-            className="text-white hover:text-[#feac7c] p-4 cursor-pointer rounded-lg hover:bg-[#3e4f3f]"
-            onClick={() => handleNavigation("/about")}
-          >
-            About
-          </a>
+
           <a
             className="text-white hover:text-[#feac7c] p-4 cursor-pointer rounded-lg hover:bg-[#3e4f3f]"
             onClick={() => handleNavigation("/contact")}
