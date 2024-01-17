@@ -13,45 +13,21 @@ const Navbar: React.FC = () => {
     setIsDrawerOpen(false);
     router.push(path);
   };
-  // const scrollToSection = (sectionId: string) => {
-  //   setIsDrawerOpen(false);
-  //   const section = document.getElementById(sectionId);
-  //   if (section && window.location.pathname === "/") {
-  //     section.scrollIntoView({ behavior: "smooth", block: "start" });
-  //   } else {
-  //     window.location.href = "/#" + sectionId;
-  //   }
-  // };
+
   const scrollToSection = (
     e: React.MouseEvent<HTMLAnchorElement>,
     sectionId: string
   ) => {
-    if (window.location.pathname === "/") {
-      e.preventDefault(); // Prevent default anchor behavior
-      setIsDrawerOpen(false);
-      const section = document.getElementById(sectionId);
-      if (section) {
-        section.scrollIntoView({ behavior: "smooth", block: "start" });
-      }
+    setIsDrawerOpen(false);
+    const section = document.getElementById(sectionId);
+    if (window.location.pathname === "/" && section) {
+      e.preventDefault(); // Need this for scroll effect to work
+      section.scrollIntoView({ behavior: "smooth", block: "start" });
     } else {
-      // If not on the homepage, allow the default navigation
-      setIsDrawerOpen(false);
       router.push("/#" + sectionId);
     }
   };
-  // const scrollToSection = (sectionId: string) => {
-  //   setIsDrawerOpen(false);
 
-  //   if (window.location.pathname === "/") {
-  //     const section = document.getElementById(sectionId);
-  //     if (section) {
-  //       section.scrollIntoView({ behavior: "smooth", block: "start" });
-  //     }
-  //   } else {
-  //     // On other pages, let the browser handle navigation
-  //     router.push('/#' + sectionId);
-  //   }
-  // };
   return (
     <>
       <nav className="fixed w-full bg-[#1e251f] text-white z-50">
