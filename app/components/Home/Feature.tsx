@@ -44,39 +44,42 @@ const PricingSection: React.FC = () => {
           {" "}
           {/* Take up half the width on medium screens */}
           <h2 className="text-3xl font-bold text-black">
-            $0 Down, $150 Per Month,
+            $0 Down, $100 Per Month,
           </h2>
           <p className="text-xl text-black">12 Month Minimum Contract</p>
           <p className="mt-4 text-black">
-            $0 down for a standard 5 page small business website. If you need
-            more than that then we have to do custom pricing based on the scope
-            of work, number of additional pages, and time involved.
+            Recognizing the budget constraints of small businesses, I offer a
+            flexible solution: get a standard 5-page website with no upfront
+            cost. For projects exceeding this scope, such as including
+            additional pages or more complex requirements, custom pricing is
+            available, tailored to the specific scope of work, number of pages,
+            and the time involved.
           </p>
           <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4">
             {/* Features components here */}
             <Feature
               title="Hosting Fees Included"
-              description="Hosting fees are built right into the monthly payment."
+              description="The monthly payment covers hosting fees and SSL certificate."
             />
             <Feature
               title="Unlimited Edits"
-              description="Change anything you want at anytime and it will be done that day."
+              description="Reach out anytime to make changes to your website."
             />
             <Feature
               title="24/7 Customer Service"
-              description="Call direct anytime day or night, no phone trees or automated responses."
+              description="My personal phone number is available for any questions or concerns."
             />
             <Feature
               title="Web Design & Development"
               description="Includes over 40 hours of design, development, and testing."
             />
             <Feature
-              title="100 Google Page Speed Score"
-              description="We can achieve a perfect 100 on Google Page Speed scores and boost your search ranking."
+              title="Fast Website Speeds"
+              description="I can help you achieve fast Google Page Speed scores and boost your search ranking."
             />
             <Feature
-              title="Google Analytics"
-              description="We install Analytics for free to monitor traffic and where it comes from."
+              title="Search Engine Updates"
+              description="Your website will stay up to date with Google's search guidelines for ranking."
             />
           </div>
         </div>

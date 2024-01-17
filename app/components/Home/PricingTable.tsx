@@ -5,45 +5,29 @@ import PricingCard from "./PricingCard"; // Adjust the import path as necessary
 import Container from "../Container";
 
 import { FaHome } from "react-icons/fa";
+import { GiFamilyHouse } from "react-icons/gi";
+import { BsFillBuildingsFill } from "react-icons/bs";
 
 import { Plan } from "./PricingCard";
 const PricingTable: React.FC = () => {
   const plans: Plan[] = [
     {
-      name: "Standard Plan",
-      price: "$2500",
-      features: [
-        "interior design",
-        "refurbishment",
-        "material supply",
-        "maintenance",
-        "24/7 support",
-      ],
+      name: "Subscription Plan",
+      price: "$100/mo",
+      features: ["Free website hosting", "Unlimited edits", "24/7 support"],
       icon: FaHome, // Pass the FaHome icon here
     },
     {
-      name: "Subscription Plan",
-      price: "$150/mo",
-      features: [
-        "advanced interior design",
-        "complete refurbishment",
-        "premium material supply",
-        "extended maintenance",
-        "priority 24/7 support",
-      ],
-      icon: FaHome, // And here, if you want the same icon for all plans
+      name: "Standard Plan",
+      price: "$2500",
+      features: ["$30/mo hosting", "Edits billed at $30/hr", "24/7 support"],
+      icon: GiFamilyHouse, // And here, if you want the same icon for all plans
     },
     {
       name: "Ultimate Plan",
-      price: "$1500/mo",
-      features: [
-        "luxury interior design",
-        "full refurbishment",
-        "exclusive material supply",
-        "comprehensive maintenance",
-        "dedicated 24/7 support",
-      ],
-      icon: FaHome, // Repeat for each plan as needed
+      price: "$2500",
+      features: ["$80/mo hosting", "Unlimited edits", "24/7 support"],
+      icon: BsFillBuildingsFill, // Repeat for each plan as needed
     },
     // ... include other plans if any
   ];

@@ -6,7 +6,7 @@ interface CardItem {
   id: number;
   title: string;
   description: string;
-  price: string;
+
   imageUrl: string;
 }
 
@@ -15,26 +15,26 @@ const cardItems: CardItem[] = [
   // Add your menu items here
   {
     id: 1,
-    title: "Stilton and pancetta penne",
+    title: "Personalized Web Development Experience",
     description:
-      "A delightful mix of stilton cheese and pancetta in a creamy sauce.",
-    price: "$24.00",
+      "At Jordy Web Development & Design, I prioritize your unique needs. Serving Port St. Lucie and Treasure Coast regions, I offer personalized web development and design services tailored to your project's size and scope. With a focus on client-centric solutions, I ensure your voice is integral in every step, delivering web solutions that truly resonate with our community.",
+
     imageUrl: "/images/pc-people.webp", // Replace with your image path
   },
   {
     id: 2,
-    title: "Stilton and pancetta penne",
+    title: "Hand-Coded, High-Performance Websites",
     description:
-      "A delightful mix of stilton cheese and pancetta in a creamy sauce.",
-    price: "$24.00",
+      "Specializing in custom-coded websites, I ensure superior performance, speed, and SEO. Every website is handcrafted to deliver faster load times and improved search rankings, setting your digital presence apart. Experience the impact of a visually striking, functionally robust website, fine-tuned for digital excellence.",
+
     imageUrl: "/images/laptop.webp", // Replace with your image path
   },
   {
     id: 3,
-    title: "Stilton and pancetta penne",
+    title: "Optimized Responsive Design for All Devices",
     description:
-      "A delightful mix of stilton cheese and pancetta in a creamy sauce.",
-    price: "$24.00",
+      "Understanding the importance of a multi-device world, I create websites that are stunning and functional on every screen. Prioritizing responsive design, your site will provide a seamless user experience from smartphones to desktops, enhancing customer engagement and showcasing your business at its best across all platforms.",
+
     imageUrl: "/images/man-phone.webp", // Replace with your image path
   },
   // ... other menu items
@@ -45,7 +45,7 @@ const Card: React.FC = () => {
     <Container className="bg-new-side">
       <div className="py-6">
         <div className="flex justify-between items-center mb-4">
-          <h2 className="text-3xl font-bold text-black">What I Do</h2>
+          <h2 className="text-3xl font-bold text-black">Services</h2>
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
           {cardItems.map((item) => (

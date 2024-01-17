@@ -10,20 +10,19 @@ const Hero = () => {
   return (
     //HERO SECTION PART 1
     //Container div
-    <Container
-      className="bg-hero" // `bg-hero` will apply to screens smaller than 768px, and `bg-merge` will apply to screens 768px and larger
-    >
+    <Container className="bg-hero">
       {/* Need id ="home" for scrolling... Handled by Navbar */}
       <div id="home" className="flex flex-col lg:flex-row min-h-screen">
         {/* Text Content */}
         <div className="flex-1 py-12 flex flex-col justify-center">
           <div className="lg:pr-12">
             <h1 className="text-5xl font-bold mb-6 text-white mt-24 lg:mt-0">
-              Small Business Web Design + Development
+              Small Business Website Development & Design
             </h1>
             <p className="text-lg mb-8 text-white">
-              No page builders or WordPress - We offer 100% hand-coded websites
-              with superior results starting at $150/mo.
+              No page builders or WordPress. Your business website will be
+              expertly hand-coded by me, ensuring exceptional quality and
+              performance, all at an affordable rate of just $100/mo.
             </p>
             <Button
               smallWidth

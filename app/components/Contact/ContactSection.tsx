@@ -47,10 +47,11 @@ const ContactSection: React.FC = () => {
           <div className="md:pr-24">
             <h2 className="text-4xl font-bold mb-4 text-black">GET IN TOUCH</h2>
             <p className="mb-6 text-black">
-              If you have any question regarding your website strategy, we
-              encourage you to schedule an appointment or phone consultation
-              with us. We are pleased to offer all types of local marketing
-              services at affordable prices for the needs of your business.
+              Hello! I'm Jordan Higuera, and I'm here to assist you. Below,
+              you'll find all the ways you can reach me. Whether you have
+              questions, need advice, or need a website for your business, I'm
+              just a message away. Don't hesitate to get in touch. I'm always
+              excited to connect and explore how we can work together.
             </p>
             {/* Contact details and social icons */}
             <div className="space-y-4">
@@ -83,7 +84,7 @@ const ContactSection: React.FC = () => {
             <div className=" absolute -z-10 w-40 h-40 bg-[#feac7c] rounded-full -left-28 -bottom-28"></div> */}
 
             <h3 className="text-lg mb-4 text-white font-bold">
-              Fill out this quick form to request a free consultation!
+              Fill out this and I will get back to you ASAP!
             </h3>
             <form
               method="POST"
@@ -100,27 +101,27 @@ const ContactSection: React.FC = () => {
               <input
                 type="tel"
                 name="phone" // Changed to type "tel" for better semantics
-                placeholder="Phone Number"
+                placeholder="Phone number"
                 className="p-2  bg-[#1e251f]  text-white"
                 required
               />
               <input
                 type="email"
                 name="email"
-                placeholder="Email Address"
+                placeholder="Email address"
                 className="p-2  bg-[#1e251f]  text-white"
                 required
               />
 
               <textarea
                 name="message"
-                placeholder="How can we help?"
+                placeholder="How can I help?"
                 className="p-2  bg-[#1e251f] text-white"
                 rows={10}
                 required
               ></textarea>
 
-              <Button label="Submit Information" />
+              <Button label="Submit information" />
             </form>
           </div>
         </div>
