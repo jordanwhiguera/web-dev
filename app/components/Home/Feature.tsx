@@ -48,12 +48,12 @@ const PricingSection: React.FC = () => {
           </h2>
           <p className="text-xl text-black">12 Month Minimum Contract</p>
           <p className="mt-4 text-black">
-            Recognizing the budget constraints of small businesses, I offer a
-            flexible solution: get a standard 5-page website with no upfront
-            cost. For projects exceeding this scope, such as including
-            additional pages or more complex requirements, custom pricing is
-            available, tailored to the specific scope of work, number of pages,
-            and the time involved.
+            Understanding the financial considerations of small businesses, I
+            provide a budget-friendly option: a standard 4-page website without
+            any initial charges. Should your needs extend beyond this, like
+            additional pages or intricate features, I offer customized pricing
+            that aligns with the project&apos;s scale, complexity, and page
+            count.
           </p>
           <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4">
             {/* Features components here */}
