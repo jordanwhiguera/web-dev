@@ -20,9 +20,8 @@ const Hero = () => {
               Small Business Website Development & Design
             </h1>
             <p className="text-lg mb-8 text-white">
-              No page builders or WordPress. Your business website will be
-              expertly hand-coded by me, ensuring exceptional quality and
-              performance, all at an affordable rate of just $100/mo.
+              I don&apos;t use any page builders or WordPress. I will code your
+              buisness website from scratch at just $100/mo.
             </p>
             <Button
               smallWidth
