@@ -26,7 +26,7 @@ const PricingTable: React.FC = () => {
     {
       name: "Ultimate Plan",
       price: "$2500",
-      features: ["$80/mo hosting", "Unlimited edits", "24/7 support"],
+      features: ["$70/mo hosting", "Unlimited edits", "24/7 support"],
       icon: BsFillBuildingsFill, // Repeat for each plan as needed
     },
     // ... include other plans if any
