@@ -45,7 +45,9 @@ const ContactSection: React.FC = () => {
         {/* Text */}
         <div className="flex-1 space-y-4">
           <div className="md:pr-24">
-            <h2 className="text-4xl font-bold mb-4 text-black">GET IN TOUCH</h2>
+            <h2 className="text-4xl font-bold mb-4 text-black ">
+              GET IN TOUCH
+            </h2>
             <p className="mb-6 text-black">
               Hello! I&apos;m Jordan Higuera, and I&apos;m here to assist you.
               Below, you&apos;ll find all the ways you can reach me. Whether you

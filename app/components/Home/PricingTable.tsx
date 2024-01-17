@@ -34,13 +34,17 @@ const PricingTable: React.FC = () => {
 
   return (
     <Container>
-      <div
-        id="pricing"
-        className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 py-4"
-      >
-        {plans.map((plan, index) => (
-          <PricingCard key={index} plan={plan} />
-        ))}
+      <div id="pricing" className="py-6 ">
+        <div className="flex justify-between items-center mb-4 lg:-mb-3">
+          <h2 className="text-3xl font-bold text-black border-l-8 pl-2 border-[#feac7c]">
+            Pricing
+          </h2>
+        </div>
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+          {plans.map((plan, index) => (
+            <PricingCard key={index} plan={plan} />
+          ))}
+        </div>
       </div>
     </Container>
   );

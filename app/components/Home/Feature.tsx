@@ -43,7 +43,7 @@ const PricingSection: React.FC = () => {
         <div className="md:w-2/3">
           {" "}
           {/* Take up half the width on medium screens */}
-          <h2 className="text-3xl font-bold text-black">
+          <h2 className="text-3xl font-bold text-black border-l-8 pl-2 border-[#feac7c]">
             $0 Down, $100 Per Month,
           </h2>
           <p className="text-xl text-black">12 Month Minimum Contract</p>
