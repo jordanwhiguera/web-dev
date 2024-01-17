@@ -14,19 +14,37 @@ const PricingTable: React.FC = () => {
     {
       name: "Subscription Plan",
       price: "$100/mo",
-      features: ["Free website hosting", "Unlimited edits", "24/7 support"],
+      features: [
+        "Free website hosting",
+        "Unlimited edits",
+        "4 pages included, +$100 per additional page",
+        "Logo design included",
+        "24/7 support",
+      ],
       icon: FaHome, // Pass the FaHome icon here
     },
     {
       name: "Standard Plan",
       price: "$2500",
-      features: ["$30/mo hosting", "Edits billed at $30/hr", "24/7 support"],
+      features: [
+        "$30/mo hosting",
+        "Edits billed at $30/hr",
+        "4 pages included, +$100 per additional page",
+        "Logo design included",
+        "24/7 support",
+      ],
       icon: GiFamilyHouse, // And here, if you want the same icon for all plans
     },
     {
-      name: "Ultimate Plan",
-      price: "$2500",
-      features: ["$70/mo hosting", "Unlimited edits", "24/7 support"],
+      name: "Custom Plan",
+      price: "Varies",
+      features: [
+        "$30/mo hosting",
+        "Unlimited edits or edits billed at $30/hr",
+        "As many pages as you need",
+        "Logo design included",
+        "24/7 support",
+      ],
       icon: BsFillBuildingsFill, // Repeat for each plan as needed
     },
     // ... include other plans if any
