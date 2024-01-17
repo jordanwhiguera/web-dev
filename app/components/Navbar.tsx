@@ -13,16 +13,45 @@ const Navbar: React.FC = () => {
     setIsDrawerOpen(false);
     router.push(path);
   };
-  const scrollToSection = (sectionId: string) => {
-    setIsDrawerOpen(false);
-    const section = document.getElementById(sectionId);
-    if (section && window.location.pathname === "/") {
-      section.scrollIntoView({ behavior: "smooth", block: "start" });
+  // const scrollToSection = (sectionId: string) => {
+  //   setIsDrawerOpen(false);
+  //   const section = document.getElementById(sectionId);
+  //   if (section && window.location.pathname === "/") {
+  //     section.scrollIntoView({ behavior: "smooth", block: "start" });
+  //   } else {
+  //     window.location.href = "/#" + sectionId;
+  //   }
+  // };
+  const scrollToSection = (
+    e: React.MouseEvent<HTMLAnchorElement>,
+    sectionId: string
+  ) => {
+    if (window.location.pathname === "/") {
+      e.preventDefault(); // Prevent default anchor behavior
+      setIsDrawerOpen(false);
+      const section = document.getElementById(sectionId);
+      if (section) {
+        section.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
     } else {
-      window.location.href = "/#" + sectionId;
+      // If not on the homepage, allow the default navigation
+      setIsDrawerOpen(false);
+      router.push("/#" + sectionId);
     }
   };
+  // const scrollToSection = (sectionId: string) => {
+  //   setIsDrawerOpen(false);
 
+  //   if (window.location.pathname === "/") {
+  //     const section = document.getElementById(sectionId);
+  //     if (section) {
+  //       section.scrollIntoView({ behavior: "smooth", block: "start" });
+  //     }
+  //   } else {
+  //     // On other pages, let the browser handle navigation
+  //     router.push('/#' + sectionId);
+  //   }
+  // };
   return (
     <>
       <nav className="fixed w-full bg-[#1e251f] text-white z-50">
@@ -66,18 +95,21 @@ const Navbar: React.FC = () => {
         {/* Navigation Links */}
         <nav className="flex flex-col mt-8 space-y-4 ">
           <a
+            href="/#home"
             className="text-white hover:text-[#feac7c] p-4 cursor-pointer rounded-lg hover:bg-[#3e4f3f] "
-            onClick={() => scrollToSection("home")}
+            onClick={(e) => scrollToSection(e, "home")}
           >
             Home
           </a>
           <a
+            href="/#pricing"
             className="text-white hover:text-[#feac7c] p-4 cursor-pointer rounded-lg hover:bg-[#3e4f3f] "
-            onClick={() => scrollToSection("pricing")}
+            onClick={(e) => scrollToSection(e, "pricing")}
           >
             Pricing
           </a>
           <a
+            href="/portfolio"
             className="text-white hover:text-[#feac7c] p-4 cursor-pointer rounded-lg hover:bg-[#3e4f3f]"
             onClick={() => handleNavigation("/portfolio")}
           >
@@ -85,6 +117,7 @@ const Navbar: React.FC = () => {
           </a>
 
           <a
+            href="/contact"
             className="text-white hover:text-[#feac7c] p-4 cursor-pointer rounded-lg hover:bg-[#3e4f3f]"
             onClick={() => handleNavigation("/contact")}
           >
