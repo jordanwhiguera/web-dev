@@ -14,7 +14,7 @@ const Feature: React.FC<{ title: string; description: string }> = ({
       </div>
 
       <div>
-        <h4 className="font-bold text-black">{title}</h4>
+        <h3 className="font-bold text-black">{title}</h3>
         <p className="text-sm text-black">{description}</p>
       </div>
     </div>
