@@ -35,7 +35,7 @@ const cardItems: CardItem[] = [
     description:
       "In today's multi-device world, I create websites that look great and function seamlessly on all screens. Responsive design is a priority, ensuring a superb user experience across smartphones, tablets, and desktops.",
 
-    imageUrl: "/images/man-phone.webp", // Replace with your image path
+    imageUrl: "/images/group-device.webp", // Replace with your image path
   },
   // ... other menu items
 ];
