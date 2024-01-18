@@ -43,7 +43,7 @@ const cardItems: CardItem[] = [
 const Card: React.FC = () => {
   return (
     <Container className="bg-new-side">
-      <div className="py-6">
+      <div className="pt-6 pb-10 lg:pb-20">
         <div className="flex justify-between items-center mb-4">
           <h2 className="text-3xl font-bold text-black border-l-8 pl-2 border-[#feac7c]">
             Services

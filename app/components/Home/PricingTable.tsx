@@ -52,7 +52,7 @@ const PricingTable: React.FC = () => {
 
   return (
     <Container>
-      <div id="pricing" className="py-6 ">
+      <div id="pricing" className="pb-6">
         <div className="flex justify-between items-center mb-4 lg:-mb-3">
           <h2 className="text-3xl font-bold text-black border-l-8 pl-2 border-[#feac7c]">
             Pricing

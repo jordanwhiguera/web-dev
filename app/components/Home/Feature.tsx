@@ -26,7 +26,7 @@ const PricingSection: React.FC = () => {
     <Container>
       {" "}
       {/* Assuming bg-white is the desired background */}
-      <div className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0 md:space-x-4">
+      <div className="pb-10 lg:pb-20 flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0 md:space-x-4">
         {" "}
         {/* Image Content */}
         <div className="md:w-1/3 flex justify-center md:justify-start ">
