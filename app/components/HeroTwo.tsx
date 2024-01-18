@@ -2,7 +2,6 @@
 
 import React from "react";
 import Button from "./Button";
-import { useRouter } from "next/navigation";
 
 interface HeroProps {
   title: string;
@@ -27,7 +26,6 @@ const HeroTwo: React.FC<HeroProps> = ({
   button,
   padRight,
 }) => {
-  const router = useRouter();
   return (
     <div
       // Can remove lg:py-16 as needed
@@ -75,8 +73,10 @@ const HeroTwo: React.FC<HeroProps> = ({
             {button && (
               <Button
                 smallWidth
-                label="Contact me"
-                onClick={() => router.push("/contact")}
+                label="Visit Website"
+                onClick={() =>
+                  window.open("https://www.stowbase.com", "_blank")
+                }
               />
             )}
           </div>
