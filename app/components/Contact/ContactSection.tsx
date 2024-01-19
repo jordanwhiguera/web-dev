@@ -53,8 +53,6 @@ const ContactSection: React.FC = () => {
               Below, you&apos;ll find all the ways you can reach me. Whether you
               have questions, need advice, or need a website for your business,
               I&apos;m just a message away. Don&apos;t hesitate to get in touch.
-              I&apos;m always excited to connect and explore how we can work
-              together.
             </p>
             {/* Contact details and social icons */}
             <div className="space-y-4">
