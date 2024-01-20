@@ -4,6 +4,7 @@ import Container from "./Container";
 import { useRouter } from "next/navigation";
 import { IoMenu } from "react-icons/io5";
 import { IoMdClose } from "react-icons/io";
+import Image from "next/image";
 
 const Navbar: React.FC = () => {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
@@ -34,7 +35,7 @@ const Navbar: React.FC = () => {
         <Container className="py-3">
           <div className="flex justify-between items-center">
             <h2
-              className="text-lg font-bold cursor-pointer hover:text-[#feac7c]"
+              className="text-lg font-bold cursor-pointer hover:text-[#feac7c] flex"
               onClick={() => handleNavigation("/")}
             >
               Jordy Web Development & Design

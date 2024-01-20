@@ -13,7 +13,7 @@ const PricingTable: React.FC = () => {
   const plans: Plan[] = [
     {
       name: "Subscription Plan",
-      price: "$100/mo",
+      price: "$110/mo",
       features: [
         "Free website hosting",
         "Unlimited edits",
@@ -25,9 +25,9 @@ const PricingTable: React.FC = () => {
     },
     {
       name: "Standard Plan",
-      price: "$2500",
+      price: "$2000",
       features: [
-        "$30/mo hosting",
+        "$25/mo hosting",
         "Edits billed at $30/hr",
         "4 pages included, +$100 per additional page",
         "Logo design included",
@@ -39,7 +39,7 @@ const PricingTable: React.FC = () => {
       name: "Custom Plan",
       price: "Varies",
       features: [
-        "$30/mo hosting",
+        "$25/mo hosting",
         "Unlimited edits or edits billed at $30/hr",
         "As many pages as you need",
         "Logo design included",

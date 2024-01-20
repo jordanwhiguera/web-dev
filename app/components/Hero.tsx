@@ -21,7 +21,7 @@ const Hero = () => {
             </h1>
             <p className="text-lg mb-8 text-white">
               I don&apos;t use any page builders or WordPress. I will code your
-              buisness website from scratch at just $100/mo.
+              buisness website from scratch at just $110/mo.
             </p>
             <Button
               smallWidth
@@ -35,7 +35,7 @@ const Hero = () => {
           <div className=" w-full">
             <img
               src="/images/new-lady-pc.webp"
-              alt="Hero Image"
+              alt="Animated image of a lady on a computer"
               className="w-full h-full rounded-lg object-cover"
             />
           </div>
