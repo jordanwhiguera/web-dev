@@ -28,7 +28,7 @@ const PricingTable: React.FC = () => {
       price: "$2000",
       features: [
         "$25/mo hosting",
-        "Edits billed at $30/hr",
+        "Edits billed at $35/hr",
         "4 pages included, +$100 per additional page",
         "Logo design included",
         "24/7 support",
@@ -40,7 +40,7 @@ const PricingTable: React.FC = () => {
       price: "Varies",
       features: [
         "$25/mo hosting",
-        "Unlimited edits or edits billed at $30/hr",
+        "Unlimited edits or edits billed at $35/hr",
         "As many pages as you need",
         "Logo design included",
         "24/7 support",
