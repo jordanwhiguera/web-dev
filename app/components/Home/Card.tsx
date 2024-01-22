@@ -19,7 +19,7 @@ const cardItems: CardItem[] = [
     description:
       "At Jordy Web Development & Design, your unique needs are my focus. I offer custom web development and design services in Port St. Lucie and the Treasure Coast, ensuring a personalized approach for every project.",
 
-    imageUrl: "/images/zoom-call.webp", // Replace with your image path
+    imageUrl: "/images/pc-people.webp", // Replace with your image path
   },
   {
     id: 2,
@@ -27,7 +27,7 @@ const cardItems: CardItem[] = [
     description:
       "I specialize in hand-coding websites to ensure top-notch performance and enhanced SEO. Each site is crafted to provide faster load times and a distinct digital presence.",
 
-    imageUrl: "/images/people-zoom.webp", // Replace with your image path
+    imageUrl: "/images/laptop.webp", // Replace with your image path
   },
   {
     id: 3,
@@ -35,7 +35,7 @@ const cardItems: CardItem[] = [
     description:
       "In today's multi-device world, I create websites that look great and function seamlessly on all screens. Responsive design is a priority, ensuring a superb user experience across smartphones, tablets, and desktops.",
 
-    imageUrl: "/images/lady-browse.webp", // Replace with your image path
+    imageUrl: "/images/group-device.webp", // Replace with your image path
   },
   // ... other menu items
 ];
