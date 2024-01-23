@@ -13,7 +13,7 @@ const PricingTable: React.FC = () => {
   const plans: Plan[] = [
     {
       name: "Subscription Plan",
-      price: "$110/mo",
+      price: "$100/mo",
       features: [
         "Free website hosting",
         "Unlimited edits",

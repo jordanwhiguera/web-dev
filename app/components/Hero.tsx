@@ -21,7 +21,7 @@ const Hero = () => {
             </h1>
             <p className="text-lg mb-8 text-white">
               I don&apos;t use any page builders or WordPress. I will code your
-              buisness website from scratch at just $110/mo.
+              buisness website from scratch at just $100/mo.
             </p>
             <Button
               smallWidth
