@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title:
     "Jordy Web Development & Design | Freelance Web Developer in Port Saint Lucie, Florida",
   description:
-    "Website Development & Design for Small Businesses in Port Saint Lucie, Florida and the Treasure Coast. Specializing in custom websites that allign with your business goals.",
+    "Jordy Web Development & Design is a freelance web developer and designer who helps small businesses grow using professional design and development in Port Saint Lucie, FL and surrounding areas.",
 };
 
 export default function RootLayout({
