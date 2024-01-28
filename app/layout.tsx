@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title:
-    "Jordy Web Development & Design | Freelance Web Developer in Port Saint Lucie, Florida",
+    "Jordy Web Development & Design | Freelance Web Design in Port Saint Lucie, Florida",
   description:
     "Jordy Web Development & Design is a freelance web developer and designer who helps small businesses grow using professional design and development in Port Saint Lucie, FL and surrounding areas.",
 };
