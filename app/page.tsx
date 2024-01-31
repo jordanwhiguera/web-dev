@@ -17,21 +17,6 @@ export default function Home() {
 
       <Card />
 
-      {/* <HeroTwo
-        title="My work"
-        subtitle="Stowbase is an online marketplace that connects people looking to store their belongings with people with unused space. Think of it as the Airbnb for storage."
-        image="/images/laptop.webp"
-        padRight
-        button
-      /> */}
-      {/* <HeroTwo
-        title="Who am I?"
-        subtitle="Hi, my name is Jordan Higuera. I am a web developer. I graduated from the Univeristy of Florida in 2020 with a degree in mathematics. Since then, I have taught myself to code. I hope I can help your buisness grow through my beautiful and optimized websites."
-        image="/images/laptop.webp"
-        padRight
-        button
-      /> */}
-
       <Feature />
       <PricingTable />
       <Footer />
